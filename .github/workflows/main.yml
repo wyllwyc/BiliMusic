@@ -23,7 +23,9 @@ jobs:
           channel: stable
 
       - name: Install dependencies
-        run: flutter pub get
+        run: |
+          flutter pub get
+          flutter pub upgrade --major-versions
 
       - name: Build Windows App
         run: flutter build windows --release
