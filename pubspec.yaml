@@ -1,6 +1,6 @@
 name: bilimusic
 description: A new Flutter project.
-publish_to: "none" 
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -35,7 +35,7 @@ dependencies:
   just_audio:
     git:
       url: https://github.com/ryanheise/just_audio.git
-      ref: main  # 确保分支存在
+      ref: stable  # 使用stable分支
   just_audio_background: ^0.0.1-beta.10
   logger: ^1.4.0
   just_audio_windows: ^0.2.0
@@ -65,8 +65,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  custom_lint: ^0.4.1  # 确保使用最新版本
-  riverpod_lint: ^1.3.3  # 确保使用最新版本
+  custom_lint: ^0.5.0  # 更新到最新版本
+  riverpod_lint: ^1.3.3
   build_runner: ^2.4.6
   riverpod_generator: ^2.2.3
   isar_generator: ^3.1.0+1
